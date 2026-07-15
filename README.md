@@ -1,5 +1,6 @@
 # -rk3568
 新手、记录
+
 一、搭建RK3568环境【RK3568音视频开发实战】开篇：从零搭建开发环境
 
 为了深入探索嵌入式音视频开发的奥秘，我入手了一块基于瑞芯微 RK3568 芯片的开发板。RK3568 凭借其四核 Cortex-A55 处理器和内置的 NPU，在音视频编解码与边缘计算方面表现优异，是学习多媒体开发的绝佳平台。
@@ -16,6 +17,7 @@ ubuntud的ios镜像下载可以到清华大学开源软件镜像站下载更快
 https://mirrors.tuna.tsinghua.edu.cn/
 
 <img width="1920" height="992" alt="image" src="https://github.com/user-attachments/assets/2aa327f1-cff6-453b-b74a-cebcedc5ae51" />
+
 这样就下载好了
 但是一定要记住检查一下网络是否是net或是桥接，否则要下载工具都下载不了
 之前刚开始学习时没检查网络连更新apt工具都更新不了
