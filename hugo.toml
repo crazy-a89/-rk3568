@@ -1,0 +1,24 @@
+baseURL = 'https://crazy-a89.github.io/-rk3568/'
+locale = 'en-us'
+title = '博客'
+theme = 'hugo-coder-main'
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+
+        unsafe = true
+
+[params]
+  author = "Penguin"
+  info = "去码头整点薯条"
+  description = "penguin的博客"
+  avatarurl = "images/penguin.jpg"
+  customSCSS = ["sses/custom.css"]
+
+[[menu.main]]
+  name = "文章"
+  weight = 1
+  url = "/posts/"

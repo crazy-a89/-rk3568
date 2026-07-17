@@ -1,0 +1,67 @@
+[categories]
+one = "kategória"
+other = "kategóriák"
+
+[tags]
+one = "címke"
+other = "címkék"
+
+[series]
+one = "sorozat"
+other = "sorozatok"
+
+[authors]
+one = "szerző"
+other = "szerzők"
+
+[posts]
+other = "bejegyzések"
+
+[reading_time]
+one = "Egyperces olvasnivaló"
+other = "{{ .Count }} perces olvasnivaló"
+
+[page_not_found]
+other = "Az oldal nem található"
+
+[page_does_not_exist]
+other = "Sajnálom, a kért oldal nem létezik."
+
+[head_back]
+other = "Itt visszaléphet a <a href=\"{{ . }}\">Főoldalra</a>."
+
+[licensed_under]
+other = "Ezen licenc alatt:"
+
+[powered_by]
+other = "Motor:"
+
+[see_also]
+other = "Lásd még itt:"
+
+[note]
+other = "jegyzet"
+
+[tip]
+other = "tanács"
+
+[example]
+other = "példa"
+
+[question]
+other = "kérdés"
+
+[info]
+other = "információ"
+
+[warning]
+other = "figyelmeztetés"
+
+[error]
+other = "hiba"
+
+[link_to_heading]
+other = "Link a címsorhoz"
+
+[entry_toc]
+other = "Tartalomjegyzék"
