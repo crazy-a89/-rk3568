@@ -43,9 +43,19 @@ jobs:
       - name: Build
         shell: bash
         run: |
+          set +e
           hugo --gc --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cacheDir "${{ runner.temp }}/hugo_cache"
+            --cacheDir "${{ runner.temp }}/hugo_cache" 2>&1 | tee hugo-build.log
+          status=${PIPESTATUS[0]}
+          if [[ ${status} -ne 0 ]]; then
+            error=$(tail -n 20 hugo-build.log)
+            error=${error//'%'/'%25'}
+            error=${error//$'\n'/'%0A'}
+            error=${error//$'\r'/'%0D'}
+            echo "::error title=Hugo build failed::${error}"
+            exit "${status}"
+          fi
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v5
@@ -62,4 +72,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
-
