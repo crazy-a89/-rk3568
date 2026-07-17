@@ -1,4 +1,4 @@
-baseURL = 'https://crazy-a89.github.io/-rk3568/'
+baseURL = 'https://crazy-a89.github.io/blog/'
 locale = 'en-us'
 title = '博客'
 theme = 'hugo-coder-main'
