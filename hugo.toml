@@ -13,9 +13,11 @@ theme = 'hugo-coder-main'
 
 [params]
   author = "Penguin"
-  info = "去码头整点薯条"
-  description = "penguin的博客"
+  info = ["Penguin的博客", "去码头整点薯条"]
   avatarurl = "images/penguin.jpg"
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
+  maxSeeAlsoItems = 5
   customSCSS = ["sses/custom.css"]
 
 [[menu.main]]
