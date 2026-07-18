@@ -2,6 +2,8 @@ baseURL = 'https://crazy-a89.github.io/blog/'
 locale = 'en-us'
 title = '博客'
 theme = 'hugo-coder-main'
+enableEmoji = true
+
 [caches]
     [caches.images]
         dir = ':cacheDir/images'
@@ -12,8 +14,8 @@ theme = 'hugo-coder-main'
         unsafe = true
 
 [params]
-  author = "Penguin"
-  info = ["Penguin的博客", "去码头整点薯条"]
+  author = "PENGUIN"
+  info = ["Penguin的博客", "名言：去码头整点薯条"]
   avatarurl = "images/penguin.jpg"
   colorScheme = "auto"
   hideColorSchemeToggle = false
@@ -24,3 +26,8 @@ theme = 'hugo-coder-main'
   name = "文章"
   weight = 1
   url = "/posts/"
+
+[[menu.main]]
+  name = "Contact me"
+  weight = 2
+  url = "contact/"
