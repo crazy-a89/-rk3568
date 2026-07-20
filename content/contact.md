@@ -1,9 +1,10 @@
 +++
-title = "**Contact**"
+title = "Contact"
 slug = "contact"
 +++
 
 
 
 
-**邮箱：**1403615218@qq.com
+**邮箱：1403615218@qq.com**
+
